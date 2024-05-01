@@ -21,6 +21,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "app/callToAction.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "app/callToAction.ssx", "components/part/ar-header.jsx", "components/ui/animated-tooltip"],
   "exclude": ["node_modules"]
 }

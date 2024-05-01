@@ -104,10 +104,16 @@ export const HeroParallax = ({
 export const Header = () => {
   return (
     <div className="relative top-0 left-0 w-full px-4 py-20 mx-auto max-w-7xl md:py-40">
-      <h1 className="text-2xl font-bold md:text-7xl dark:text-black">
+      {/* <h1 className="text-2xl font-bold md:text-7xl dark:text-green-600">
         Reimagine Furniture Shopping
-      </h1>
-      <p className="max-w-2xl mt-8 text-base md:text-xl dark:text-black-200">
+      </h1> */}
+      <h2 className="mb-4 text-4xl font-extrabold tracking-tight text-green-500 md:text-7xl dark:text-green">
+        Designed for your furniture business
+      </h2>
+      {/* <h2 className="mb-4 text-4xl font-extrabold tracking-tight text-green-500 dark:text-green">
+        Designed for your furniture business
+      </h2> */}
+      <p className="max-w-2xl mt-8 text-base md:text-xl dark:text-green-600">
         Imagine a world where furniture shopping is interactive, immersive, and
         stress-free. With ARIA and Augmented Reality, Filipinos are leading the
         way in this exciting new era. Welcome to the future of home décor.
