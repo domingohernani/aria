@@ -33,7 +33,7 @@ export const NavigationBar = () => {
 
     <nav className="flex flex-wrap items-center justify-between">
       <div className="flex items-center flex-shrink-0 text-white">
-        <Image src={Logo} alt="ARIA" width={100} />
+        <Image src={Logo} alt="ARIA" className="w-16 lg:w-20" />
       </div>
       <div className="block lg:hidden">
         <button
@@ -41,14 +41,14 @@ export const NavigationBar = () => {
           className="flex items-center px-3 py-2 rounded text-black-500 hover:text-black-400"
         >
           <svg
-            className={`fill-current h-7 w-7 ${isOpen ? "hidden" : "block"}`}
+            className={`fill-current h-5 w-5 ${isOpen ? "hidden" : "block"}`}
             viewBox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg"
           >
             <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
           </svg>
           <svg
-            className={`fill-current h-7 w-7 ${isOpen ? "block" : "hidden"}`}
+            className={`fill-current h-5 w-5 ${isOpen ? "block" : "hidden"}`}
             viewBox="0 0 20 20"
             xmlns="http://www.w3.org/2000/svg"
           >

@@ -10,7 +10,7 @@
 
 .callToActionContainer {
   width: min(90%, 1300px);
-  height: 100vh;
+  min-height: 100vh;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   margin: auto;
@@ -26,18 +26,24 @@
   display: flex;
   justify-content: center;
   z-index: 3;
-  height: fit-content;
 }
 
 #chair {
   height: 100vh;
   flex: 1;
-  width: min(100%, 1300px);
+  width: auto;
   grid-column-start: 3;
   grid-column-end: 5;
   grid-row-start: 2;
   grid-row-end: 2;
 }
+
+@media all and (max-width: 640px) {
+  #chair {
+    grid-column-start: 2;
+  }
+}
+  
 
 /*  more info section */
 

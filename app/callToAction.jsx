@@ -26,13 +26,14 @@ const CallToAction = () => {
           <TextGenerateEffect words={words} />
           {showParagraph && (
             <>
-              <p className="text-xl text-gray-400">
+              <p className="text-base text-gray-400 lg:text-lg">
                 Ready to immerse yourself in the world of augmented reality?{" "}
                 <br />
-                Explore our Augmented Reality Placement feature - exclusive for mobile users!
+                Explore our Augmented Reality Placement feature - exclusive for
+                mobile users!
               </p>
               <p>
-                <b className="text-xl font-medium text-gray-500 ">
+                <b className="text-base font-medium text-gray-500 lg:text-lg ">
                   For mobile devices, click
                   <svg
                     xmlns="http://www.w3.org/2000/svg"

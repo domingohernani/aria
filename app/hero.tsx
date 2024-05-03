@@ -7,41 +7,21 @@ export function HeroParallaxDemo() {
 }
 export const products = [
   {
-    title: "Moonbeam",
-    link: "https://gomoonbeam.com",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/moonbeam.png",
-  },
-  {
-    title: "Cursor",
-    link: "https://cursor.so",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/cursor.png",
-  },
-  {
-    title: "Rogue",
-    link: "https://userogue.com",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/rogue.png",
+    title: "Product",
+    link: "#",
+    thumbnail: "/Product.svg",
   },
 
   {
-    title: "Editorially",
-    link: "https://editorially.org",
+    title: "Augmented Reality Showroom",
+    link: "#",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/editorially.png",
+      "/AR.jpg",
   },
   {
-    title: "Editrix AI",
-    link: "https://editrix.ai",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/editrix.png",
-  },
-  {
-    title: "Pixel Perfect",
-    link: "https://app.pixelperfect.quest",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/pixelperfect.png",
+    title: "Payment",
+    link: "#",
+    thumbnail: "/Payment.svg",
   },
 
   {
@@ -51,16 +31,32 @@ export const products = [
       "https://aceternity.com/images/products/thumbnails/new/algochurn.png",
   },
   {
+    title: "Shipping",
+    link: "#",
+    thumbnail: "Shipping.svg",
+  },
+
+  {
     title: "Aceternity UI",
     link: "https://ui.aceternity.com",
     thumbnail:
       "https://aceternity.com/images/products/thumbnails/new/aceternityui.png",
   },
   {
-    title: "Tailwind Master Kit",
-    link: "https://tailwindmasterkit.com",
+    title: "Cart",
+    link: "#",
+    thumbnail: "/Cart.svg",
+  },
+  {
+    title: "Space",
+    link: "#",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/tailwindmasterkit.png",
+      "/Space.svg",
+  },
+  {
+    title: "Address",
+    link: "#",
+    thumbnail: "/Address.svg",
   },
   {
     title: "SmartBridge",
@@ -76,16 +72,16 @@ export const products = [
   },
 
   {
-    title: "Creme Digital",
-    link: "https://cremedigital.com",
+    title: "Elegance",
+    link: "#",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/cremedigital.png",
+      "/Elegance.png",
   },
   {
-    title: "Golden Bells Academy",
-    link: "https://goldenbellsacademy.com",
+    title: "Space",
+    link: "#",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/goldenbellsacademy.png",
+      "/Space.svg",
   },
   {
     title: "Invoker Labs",
