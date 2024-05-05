@@ -13,7 +13,7 @@ export default function Home() {
       <section className="fixed z-50 w-full px-3 py-3 bg-white lg:px-10">
         <NavBar></NavBar>
       </section>
-      <section id="home" className="relative">
+      <section id="home" className="relative px-5">
         <HeroParallaxDemo></HeroParallaxDemo>
       </section>
       <section className="h-screen mt-10 bg-green-50" id="ar">

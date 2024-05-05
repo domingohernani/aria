@@ -15,20 +15,17 @@ export const products = [
   {
     title: "Augmented Reality Showroom",
     link: "#",
-    thumbnail:
-      "/AR.jpg",
+    thumbnail: "/AR.jpg",
   },
   {
     title: "Payment",
     link: "#",
     thumbnail: "/Payment.svg",
   },
-
   {
-    title: "Algochurn",
-    link: "https://algochurn.com",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/algochurn.png",
+    title: "Space",
+    link: "#",
+    thumbnail: "/Space.svg",
   },
   {
     title: "Shipping",
@@ -50,8 +47,7 @@ export const products = [
   {
     title: "Space",
     link: "#",
-    thumbnail:
-      "/Space.svg",
+    thumbnail: "/Space.svg",
   },
   {
     title: "Address",
@@ -74,14 +70,12 @@ export const products = [
   {
     title: "Elegance",
     link: "#",
-    thumbnail:
-      "/Elegance.png",
+    thumbnail: "/Elegance.png",
   },
   {
     title: "Space",
     link: "#",
-    thumbnail:
-      "/Space.svg",
+    thumbnail: "/Space.svg",
   },
   {
     title: "Invoker Labs",
