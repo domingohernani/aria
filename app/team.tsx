@@ -44,7 +44,7 @@ export function Team() {
             Meet the Team
           </h2>
           <p className="text-gray-500 sm:text-xl dark:text-gray-400">
-            We're a collective of talented individuals with a passion for
+            We&apos;re a collective of talented individuals with a passion for
             pushing boundaries and crafting innovative solutions. We work
             together to translate audacious ideas into groundbreaking realities.
           </p>

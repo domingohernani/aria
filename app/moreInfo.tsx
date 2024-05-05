@@ -17,14 +17,14 @@ export const MoreInfo = () => {
                   Abous Us
                 </h2>
                 <p className="max-w-2xl mx-auto text-lg font-normal leading-8 text-gray-400 max-lg:text-center">
-                  We're a passionate team united by the belief that bridging the
+                  We&apos;re a passionate team united by the belief that bridging the
                   gap between imagination and reality is essential. We pour our
                   hearts and souls into every AR experience we create, fueled by
                   late nights and a shared vision of revolutionizing furniture
-                  shopping. This isn't just a company; it's a movement to
+                  shopping. This isn&apos;t just a company; it&apos;s a movement to
                   empower people to design dream spaces with confidence. We want
                   to hear your stories and transform your furniture shopping
-                  experience. Together, one AR visualization at a time, we'll
+                  experience. Together, one AR visualization at a time, we&apos;ll
                   weave a future where furniture seamlessly complements your
                   unique style and brings your dream space to life.
                 </p>
@@ -49,9 +49,9 @@ export const MoreInfo = () => {
                 </h2>
                 <p className="max-w-2xl mx-auto text-lg font-normal leading-8 text-gray-400 max-lg:text-center">
                   Making it to the Top 10 at the QOMPETE National Student
-                  StartUp Challenge wasn't just an honor, it was a validation.
+                  StartUp Challenge wasn&apos;t just an honor, it was a validation.
                   It meant that our crazy idea resonated, that the frustration
-                  of furniture shopping wasn't just ours. It ignited a fire in
+                  of furniture shopping wasn&apos;t just ours. It ignited a fire in
                   us - a fire to empower people to design dream spaces with
                   confidence, to eliminate the guesswork and replace it with
                   stunning AR visualizations.
