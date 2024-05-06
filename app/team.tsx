@@ -6,7 +6,7 @@ const people = [
   {
     id: 1,
     name: "Elijah Japheth Macatiag",
-    designation: "Chief Executive Office",
+    designation: "Chief Executive Officer",
     image: "/jap.png",
   },
   {
