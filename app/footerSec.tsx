@@ -5,8 +5,8 @@ import Link from "next/link";
 export const FooterSec = () => {
   return (
     <footer className="w-full px-4 py-20 bg-green-50">
-      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-center lg:justify-between flex-col lg:flex-row pb-12 gap-7 lg:gap-0 border-b border-gray-200">
+      <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+        <div className="flex flex-col items-center justify-center pb-12 border-b border-gray-200 lg:justify-between lg:flex-row gap-7 lg:gap-0">
           <Image src={Logo} alt="ARIA" className="w-36" />
           <a
             href="javascript:;"
@@ -86,24 +86,32 @@ export const FooterSec = () => {
                 </li>
                 <li>
                   <a
-                    href="https://www.facebook.com/ase.geroche"
+                    href="https://www.facebook.com/vincentcueva.58"
                     className="text-gray-500 transition hover:opacity-75"
                   >
-                    Robeniel Geroche
+                    Vincent Cueva
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.facebook.com/llegojessica"
+                    className="text-gray-500 transition hover:opacity-75"
+                  >
+                    Jesicca Llego
                   </a>
                 </li>
               </ul>
             </div>
           </div>
           <div className="block lg:max-w-md">
-            <h3 className="font-manrope font-semibold text-2xl text-gray-900 leading-9 mb-8 text-center lg:text-left">
+            <h3 className="mb-8 text-2xl font-semibold leading-9 text-center text-gray-900 font-manrope lg:text-left">
               Be the first to know about new arrivals and exclusive deals!
             </h3>
             <div className="lg:bg-gray-100 lg:rounded-full lg:h-16 lg:p-1.5 lg:flex-row gap-6 lg:gap-0 flex-col flex items-center justify-between">
               <input
                 type="text"
                 name="email"
-                className="py-3 px-6 bg-gray-100 rounded-full text-gray-900 placeholder:text-gray-500 focus:outline-none flex-1 w-full max-w-xl mx-auto lg:w-auto lg:py-5 lg:px-7 lg:bg-transparent"
+                className="flex-1 w-full max-w-xl px-6 py-3 mx-auto text-gray-900 bg-gray-100 rounded-full placeholder:text-gray-500 focus:outline-none lg:w-auto lg:py-5 lg:px-7 lg:bg-transparent"
                 placeholder="Your email here..."
               />
               <button
@@ -115,8 +123,8 @@ export const FooterSec = () => {
             </div>
           </div>
         </div>
-        <div className="py-9 border-t border-gray-200">
-          <div className="flex items-center justify-center flex-col gap-8 lg:gap-0 lg:flex-row">
+        <div className="border-t border-gray-200 py-9">
+          <div className="flex flex-col items-center justify-center gap-8 lg:gap-0 lg:flex-row">
             <span className="text-sm text-gray-500 md:text-center">
               Educational purposes only. Copyright © 2024 TECH 101
               Technopreneurship - PSU Urdaneta
