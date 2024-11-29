@@ -123,7 +123,7 @@ export const FooterSec = () => {
             </div>
           </div>
         </div>
-        <div className="border-t border-gray-200">
+        <div className="border-t border-gray-200 py-9">
           <div className="flex flex-col items-center justify-center gap-8 lg:gap-0 lg:flex-row">
             <span className="text-sm text-gray-500 md:text-center">
               Copyright © 2024
