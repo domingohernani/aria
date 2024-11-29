@@ -23,13 +23,13 @@ const people = [
   },
   {
     id: 4,
-    name: "Robeniel Geroche",
+    name: "Jessica Llego",
     designation: "Chief Financial Officer",
     image: "/rob.png",
   },
   {
     id: 5,
-    name: "Joshua Reyes",
+    name: "Vincent Cueva",
     designation: "Mentor",
     image: "/sirjosh.png",
   },
