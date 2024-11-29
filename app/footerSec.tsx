@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export const FooterSec = () => {
   return (
-    <footer className="w-full px-4 py-20 bg-green-50">
+    <footer className="w-full px-4 py-12 bg-green-50">
       <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
         <div className="flex flex-col items-center justify-center pb-12 border-b border-gray-200 lg:justify-between lg:flex-row gap-7 lg:gap-0">
           <Image src={Logo} alt="ARIA" className="w-36" />
