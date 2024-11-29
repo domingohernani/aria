@@ -18,7 +18,7 @@ const people = [
   {
     id: 3,
     name: "Ryan King Ballesteros",
-    designation: "Chief Marketing Officer ",
+    designation: "Chief Marketing Officer",
     image: "/ry.png",
   },
   {
@@ -30,7 +30,7 @@ const people = [
   {
     id: 5,
     name: "Vincent Cueva",
-    designation: "Mentor",
+    designation: "Chief Operating Officer ",
     image: "/sirjosh.png",
   },
 ];
